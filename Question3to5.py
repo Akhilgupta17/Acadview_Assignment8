@@ -1,9 +1,7 @@
-from datetime import date
-x=date(2018,6,18)
-print(x.strftime("%A,%B%d,%y"))
+import time
 #3
-print(x.month)
+print(time.strftime("%B",time.localtime()))
 #4
-print(x.day)
+print(time.strftime("%A",time.localtime()))
 #5
-print(x.date)
+print(time.strftime("%e",time.localtime()))
